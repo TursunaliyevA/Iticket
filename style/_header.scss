@@ -1,0 +1,202 @@
+header {
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    box-shadow:  0 5px 10px rgba(0,0,0,.1);
+    padding: 5px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    height: 55px;
+    @media (max-width:1500px) {
+        padding: 5px 100px;
+    }
+    @media (max-width:1450px) {
+        padding: 5px 80px;
+    }
+    @media (max-width:1400px) {
+        padding: 5px 60px;
+    }
+    @media (max-width:1370px) {
+        padding: 5px 40px;
+    }
+    @media (max-width:1100px) {
+        padding: 5px 35px;
+        height: 50px;
+    }
+    @media (max-width:910px) {
+        padding: 5px 30px;
+        height: 45px;
+    }
+}
+
+header .logo {
+    font-weight: normal;
+    font-size: 13px;
+    margin-left: 14px;
+    color: #333;
+    height: 30px;
+    @media (max-width:1260px) {
+        font-size: 12px;
+        margin-left: 11px;
+        height: 26px;
+    }
+    @media (max-width:1180px) {
+        margin-left: 10px;
+        height: 24px;
+    }
+    @media (max-width:910px) {
+        height: 20px;
+    }
+}
+
+.navbar {
+    height: 50px;
+    @media (max-width:1260px) {
+        height: 40px;
+    }
+    @media (max-width:1180px) {
+        height: 37px;
+    }
+}
+
+header .navbar ul{
+    list-style: none;
+}
+
+header .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a {
+    font-size: 14px;
+    padding: 0px 15px 5px 15px;
+    font-weight: 600;
+    color: #333;
+    display: block;
+    @media (max-width:1260px) {
+        font-size: 13px;
+        padding: 0px 10px 5px 10px;
+        font-weight: 600;
+    }
+    @media (max-width:1180px) {
+        font-size: 12px;
+        padding: 0px 9px 4px 9px;
+        font-weight: 500;
+    }
+    @media (max-width:910px) {
+        padding: 0px 8px 4px 8px;
+    }
+}
+
+header .navbar ul li a:hover {
+    border-bottom: 5px solid yellow;
+    width: 100%;
+    transition: 5ms;
+    @media (max-width:1260px) {
+        border-bottom: 4px solid yellow;
+    }
+    @media (max-width:910px) {
+        border-bottom: 1px solid yellow;
+    }
+}
+
+header .navbar ul li ul {
+    position: absolute;
+    left: 0;
+    padding-left: 0px;
+    width: 100%;
+    background-color: #fff;
+    display: none;
+}
+
+header .navbar ul li ul li {
+    width: 100%;
+    padding: 15px 5px;
+    @media (max-width:1260px) {
+        padding: 12px 4px;
+    }
+    @media (max-width:1180px) {
+        padding: 11px 4px;
+    }
+    @media (max-width:910px) {
+        padding: 10px 4px;
+    }
+}
+
+header .navbar ul li:hover > ul {
+    display: initial;
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+    @media (max-width:1260px) {
+        font-size: 19px;
+    }
+    @media (max-width:1180px) {
+        font-size: 18px;
+    }
+    @media (max-width:910px) {
+        font-size: 17px;
+    }
+}
+
+.resp2 {
+    display: none;
+}
+
+.wdl {
+    width: 130px;
+    @media (max-width:1260px) {
+        width: 120px;
+    }
+    @media (max-width:1180px) {
+        width: 115px;
+    }
+    @media (max-width:910px) {
+        width: 110px;
+    }
+    
+}
+
+
+
+
+
+
+@media(max-width:991px){
+
+    .resp1 {
+        display: none;
+    }
+
+    .resp2 {
+        display: block;
+        margin-top: 30px;
+        position: absolute;
+    }
+    
+    ul > li {
+        border-bottom: 1px solid grey;
+        padding: 7px 0px;
+    }
+
+    .offcanvas-body {
+        padding: 0px;
+    }
+
+    header .navbar ul li a:hover {
+        width: 100%;
+        transition: 5ms;
+        border-bottom:0px solid yellow;;
+    }
+
+}

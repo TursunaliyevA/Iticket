@@ -1,0 +1,153 @@
+.footer {
+    background-color: #303030;
+    color: #ACACAC;
+    margin-top: 20px;
+    padding: 20px 0px;
+    .gridd {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        @media (max-width:950px) {
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .fblock1 {
+            text-align: left;
+            width: 270px;
+            img {
+                width: 170px;
+            }
+            .support {
+                margin-top: 20px;
+                ul {
+                    padding-left: 0px;
+                    a {
+                        color: #fff;
+                        font-size: 15px;
+                    }
+                    p {
+                        font-weight: 300;
+                        font-size: 15px;
+                        color: gray;
+                    }
+                }
+            }
+            .flink {
+                margin-top: 20px;
+                color: gray;
+                font-weight: 300;
+                font-size: 15px; 
+                p {
+                    margin-bottom: 0.8rem;
+                }
+                .apps {
+                    a {
+                        margin: 0px 3px;
+                        background-color: #cccccc;
+                        color: #303030;
+                        font-size: 15px;
+                        padding: 6px 8px;
+                        border-radius: 32px;
+                    }
+                }
+            }
+                h4 {
+                    color: #FFDD00;
+                    font-weight: 300;
+                    font-size: 22px;
+                    margin-bottom: 20px;
+                }
+                ul {
+                    padding-left: 0px;
+                    li {
+                        border: none;
+                        a {
+                            margin: 0px 3px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+        }
+        .fblock2 {
+            text-align: left;
+            width: 270px;
+            img {
+                width: 170px;
+            }
+            .support {
+                margin-top: 20px;
+                ul {
+                    padding-left: 0px;
+                    a {
+                        color: #fff;
+                        font-size: 14px;
+                    }
+                    p {
+                        font-weight: 300;
+                        font-size: 15px;
+                        color: gray;
+                    }
+                }
+            }
+                h4 {
+                    color: #FFDD00;
+                    font-weight: 300;
+                    font-size: 22px;
+                    margin-bottom: 20px;
+                }
+                ul {
+                    padding-left: 0px;
+                    li {
+                        border: none;
+                        margin-bottom: 15px;
+                        a {
+                            margin: 0px 3px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+        }
+        .fblock3 {
+            text-align: left;
+            width: 270px;
+            .flink {
+                margin-top: 20px;
+                color: gray;
+                font-weight: 300;
+                font-size: 15px; 
+                p {
+                    margin-bottom: 0.8rem;
+                }
+                .apps {
+                    a {
+                        margin: 0px 3px;
+                        background-color: #cccccc;
+                        color: #303030;
+                        font-size: 15px;
+                        padding: 6px 8px;
+                        border-radius: 32px;
+                    }
+                }
+            }
+                h4 {
+                    color: #FFDD00;
+                    font-weight: 300;
+                    font-size: 22px;
+                    margin-bottom: 20px;
+                }
+                ul {
+                    padding-left: 0px;
+                    li {
+                        border: none;
+                        margin-bottom: 10px;
+                        a {
+                            font-weight: 300;
+                        }
+                        img {
+                            margin-right: 5px;
+                        }
+                    }
+                }
+        }
+    }
+}

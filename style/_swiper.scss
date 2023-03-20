@@ -1,0 +1,129 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  @media (max-width:1180px) {
+    display: none;
+  }
+}
+
+.swiper-slide {
+  font-size: 18px;
+  position: relative;
+  @media (max-width:1400px) {
+    font-size: 16px;
+  }
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+  @media (max-width:1400px) {
+    height: 250px;
+  }
+}
+
+.translate {
+  position: absolute;
+  left: 0;
+  width: 22%;
+  height: 100%;
+  padding: 15px;
+  background-color: rgba(52, 49, 49, 0.8);
+  @media (max-width:1400px) {
+    width: 20%;
+    padding: 13px;
+  }
+  .tittle {
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 18px;
+  }
+  .date {
+    font-weight: 300;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 3px;
+    margin-top: 30px;
+    @media (max-width:1400px) {
+      margin-top: 25px;
+    }
+    i {
+      font-size: 18px;
+      @media (max-width:1400px) {
+        font-size: 16px;
+      }
+    }
+    p {
+      margin: 0px;
+      font-size: 13px;
+    }
+  }
+  .location {
+    font-weight: 300;
+    display: flex;
+    i {
+      font-size: 15px;
+      margin-left: 2px;
+      margin-top: 2px;
+    }
+    p {
+      margin: 0px 0px 0px 5px;
+      font-size: 14px;
+    }
+  }
+  .cost {
+    margin-top: 3px;
+    margin-left: 2px;
+    p {
+      font-size: 14px;
+      font-weight: 300;
+      margin-left: 2px;
+    }
+  }
+  .buy {
+    padding-top: 45px;
+    margin-top: 45px;
+    @media (max-width:1400px) {
+      padding-top: 35px;
+      margin-top: 35px;
+    }
+    .buyy {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      background: #FFDD00;
+      color: #333333;
+      @media (max-width:1400px) {
+        padding: 8px;
+      }
+      i {
+        margin-right: 3px;
+      }
+      p {
+        font-weight: 300;
+        font-size: 18px;
+        margin: 0px;
+        @media (max-width:1400px) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

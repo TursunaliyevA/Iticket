@@ -1,0 +1,134 @@
+body {
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #e8e8e8;
+    font-family: 'rubik',sans-serif;
+    box-sizing: border-box;
+}
+
+ul {
+    z-index: 1000;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    @media (max-width:1300px) {
+        max-width: 1180px;
+    }
+    @media (max-width:1180px) {
+        width: 1000px;
+    }
+    @media (max-width:1020px) {
+        width: 960px;
+    }
+    @media (max-width:970px) {
+        width: 880px;
+    }
+    @media (max-width:910px) {
+        width: 880px;
+    }
+    @media (max-width:890px) {
+        width: 840px;
+    }
+    @media (max-width:840px) {
+        width: 730px;
+    }
+    @media (max-width:750px) {
+        width: 680px;
+    }
+    @media (max-width:700px) {
+        width: 635px;
+    }
+    @media (max-width:635px) {
+        width: 560px;
+    }
+    @media (max-width:570px) {
+        width: 500px;
+    }
+    @media (max-width:510px) {
+        width: 440px;
+    }
+    @media (max-width:450px) {
+        width: 350px;
+    }
+    @media (max-width:360px) {
+        width: 300px;
+    }
+}
+h1 {
+    color: #333;
+}
+
+input {
+    border: none;
+    outline: none;
+    color: red;
+    ::placeholder {
+        color: red;
+        opacity: 1;
+      }
+}
+
+select {
+    outline: none;
+    border: none;
+}
+
+option {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+#white {
+    color: #fff;
+}
+
+    #grey {
+        color: #FFFFFFB3;
+    }
+
+#bold {
+    font-weight: 600;
+}
+
+#none {
+    display: none;
+}
+
+#non {
+    display: block;
+    @media (max-width:990px) {
+        display: none;
+    }
+}
+
+#bold {
+    font-weight: 500;
+}
+
+#w4 {
+    width: 40px;
+}
+
+#w12 {
+    width: 120px;
+}
+
+#w75 {
+    width: 75px;
+}
+#w60 {
+    width: 60px;
+}
+
+#w80 {
+    width: 80px;
+}
